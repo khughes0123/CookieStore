@@ -2,88 +2,66 @@
 body {
     font-size: 67.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: #dfa597 url(Images/WhiteTexture\ Background.jpg) no-repeat fixed top center;
+    background: url(Images/WhiteTexture\ Background.jpg) no-repeat fixed top center;
     padding: 0;
     margin: 2.0em;
     background-size: 100% 100%;
-    
 }
 
-
-
-h1 {
-    color: rgba(0, 0, 0, 0.575);
-    font-size: 2.0em;
-    margin: 0.5em 0.5em 0;
-    padding: 0;
+.contentwrapper{
+max-height: 3000px;
 }
 
-h2 {
-    color: #745b2f;
-    font-size: 1.7em;
-    padding: 0px;
-    margin: 0.5em 0 0.35em 0;
+h1{
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: fantasy;
+    padding: 10px;
+    color:rgb(110, 62, 27);
 }
 
-p {
-    font-size: 1.2em;
-    line-height: 1.4em;
-    color: #555;
-    padding: 0px;
-    margin: 0px 0.5em .75em 0px;
+h2{
+    font-size: 1.5rem;
+    font-style:italic;
+    font-weight: bolder;
+    font-family: Brush Script MT;
 }
 
-a, a:visited {
-    color: #C64322;
+h3{
+    position:relative;
+    bottom: 1000px;
+    left: 570px;
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 50px;
+    color:chocolate;
 }
 
-a:hover {
-    color: #333;
+h4{
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 50px;
 }
 
-hr {
-    padding: 0;
-    margin: 1.5em 1.5em .75em 0.5em;
-}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color:chocolate;
+    padding: .3em;
 
-.contentWrapper {
-    margin: 0 auto;
-    max-width: 1170px;
-    padding: 0 3.0em;
-    margin: 0 3.0em;
 }
-.left{
-    float: left;
-}
-.right {
-    float: right;
-}
-
-/* Header */
 
 header {
     padding: 2.5em 0 0.5em;
-    margin: 0 0 2.0em;
-    background: #39150C url(Images/Header.jpg) center 0px;
+    margin: 0 auto;
+    height: 300px;
+    width: 1300px;
+    border: chocolate solid  1px;
+    border-radius: 2px;
+    background: #39150C url(Images/Header.jpg) center 0px 
 }
 
-header h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: #745b2f;
-    font-size: 7.5em;
-    letter-spacing: -.025em;
-    margin: 0;
-    text-shadow: 1px 2px 0 #bd8437;
-}
-header h2 {
-    font-weight: 300;
-    font-size: 3.8em;
-    color: #2BA967;
-    margin: -.4em 0 0 1.0em;
-    text-transform:uppercase;
-    letter-spacing: .05em;
-
-}
 
 nav {
     color: #000;
@@ -121,6 +99,7 @@ nav#searchMenu {
     padding: 0.35em;
     background-color: rgba(64,54,47,0.8);
     height: 1.3em;
+    border-radius: 2px;
 }
 nav#searchMenu li {
     padding: 0 0.25em 0 0.2em;
@@ -154,40 +133,154 @@ nav#searchMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before
 }
 
 section#navigator { 
-    width: 238px;
-    float: right;
+    width: 250px;
+    left: 1150px;
+    height: 800px;
     position: relative;
     display: block;
-    background-color: #fff;
+    background: url(Images/Sidebar4.jpg) center;
     margin: 1.5em 0 3.0em 1.5em;
     padding: 1.7em 0.5em 2.0em 1.7em;
+    font-size: 2rem;
+    box-shadow: chocolate;
+    border-radius: 10px;
    
 }
 
 section #main {
-    /*background-color: #fcfbe6;*/
     background-color: rgba(252,251,243,0.7);
     margin: 0 0 2.0em;
     padding: 1.5em 0 2.0em 1.5em;
-    display:flex
     border-radius: 2em;
     box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
 
 }
 
-.Images{
-    float: left;
+.Image1{
     position:relative;
-    width: 250px;
-    margin: 0 0.5em 2.0em, 0.5em;
+    left: 30px;
+    bottom: 953px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
     padding: 1.0em;
     background-color: #fff;
-    border: #ccc solid 1px;
+    border:chocolate solid 1px;
     border-radius: 0.6em;
 }
-.Images img.cookiepic {
-    width: 100%
+
+.Image2{
+    position:relative;
+    bottom: 750px;
+    left: 30px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1.0em;
+    background-color: #fff;
+    border: chocolate solid 1px;
+    border-radius: 0.6em;
 }
+
+.Image3{
+    position:relative;
+    bottom: 1600px;
+    height: 300px;
+    left: -390px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1.0em;
+    background-color: #fff;
+    border:chocolate solid 1px;
+    border-radius: 0.6em;
+}
+
+.Image4{
+    position:relative;
+    bottom: 1397px;
+    left: -390px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1.0em;
+    background-color: #fff;
+    border:chocolate  solid 1px;
+    border-radius: 0.6em;
+}
+
+.Image5 img{
+    position:relative;
+    bottom: 2811px;
+    left: -23px;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border:chocolate  solid 1px;
+    border-radius: 0.6em;
+}
+
+.Image6 img{
+    float: left;
+    position:relative;
+    bottom: 2813px;
+    left: -23px;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border:chocolate  solid 1px;
+    border-radius: 0.6em;
+}
+
+.Image7 img{
+    position:relative;
+    bottom: 2362px;
+    left: -325px;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border:chocolate  solid 1px;
+    border-radius: 0.6em;
+}
+
+.Image8 img{
+    position:relative;
+    bottom: 3718px;
+    left: 1580px;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border:chocolate  solid 1px;
+    border-radius: 0.6em;
+}
+
+.Image9 img{
+    position:relative;
+    bottom: 3720px;
+    left: 1580px;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border:chocolate  solid 1px;
+    border-radius: 0.6em;
+}
+
+.Image10 img{
+    position:relative;
+    bottom: 3722px;
+    left: 1580px;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border:chocolate  solid 1px;
+    border-radius: 0.6em;
+}
+
 
 footer {
     background-color: #40362f;
