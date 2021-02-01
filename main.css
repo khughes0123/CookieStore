@@ -2,14 +2,16 @@
 body {
     font-size: 67.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(Images/WhiteTexture\ Background.jpg) no-repeat fixed top center;
+    background: url(Images/WhiteTexture\ Background.jpg) no-repeat center center/50px 50px fixed;
     padding: 0;
     margin: 2.0em;
     background-size: 100% 100%;
 }
 
 .contentwrapper{
-max-height: 3000px;
+margin: 0 auto;
+height: 500px;
+
 }
 
 h1{
@@ -33,8 +35,9 @@ h3{
     bottom: 1000px;
     left: 570px;
     font-family: Garamond;
-    font-weight: bold;
-    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 60px;
     color:chocolate;
 }
 
@@ -42,6 +45,7 @@ h4{
     font-family: fantasy;
     font-weight: bold;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 p{
@@ -55,8 +59,8 @@ p{
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 auto;
-    height: 300px;
-    width: 1300px;
+    height: 18.75rem;
+    width: 81.25rem;
     border: chocolate solid  1px;
     border-radius: 2px;
     background: #39150C url(Images/Header.jpg) center 0px 
@@ -133,18 +137,32 @@ nav#searchMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before
 }
 
 section#navigator { 
-    width: 250px;
-    left: 1150px;
-    height: 800px;
+    width: 15.625rem;
+    left: 71.875rem;
+    height: 50rem;
     position: relative;
     display: block;
     background: url(Images/Sidebar4.jpg) center;
     margin: 1.5em 0 3.0em 1.5em;
     padding: 1.7em 0.5em 2.0em 1.7em;
-    font-size: 2rem;
+    font-size: 2.5rem;
     box-shadow: chocolate;
     border-radius: 10px;
-   
+    color: chocolate;
+}
+
+
+    #navigator img {
+        opacity: 3.0;
+    }
+
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:purple;
 }
 
 section #main {
@@ -158,8 +176,8 @@ section #main {
 
 .Image1{
     position:relative;
-    left: 30px;
-    bottom: 953px;
+    left: 1.5rem;
+    bottom: 59.5rem;
     height: 300px;
     width: 300px;
     margin: 0 auto;
@@ -171,8 +189,8 @@ section #main {
 
 .Image2{
     position:relative;
-    bottom: 750px;
-    left: 30px;
+    bottom: 46.875rem;
+    left: 1.875rem;
     height: 300px;
     width: 300px;
     margin: 0 auto;
@@ -184,9 +202,9 @@ section #main {
 
 .Image3{
     position:relative;
-    bottom: 1600px;
+    bottom: 100rem;
     height: 300px;
-    left: -390px;
+    left: -24.735rem;
     width: 300px;
     margin: 0 auto;
     padding: 1.0em;
@@ -197,8 +215,8 @@ section #main {
 
 .Image4{
     position:relative;
-    bottom: 1397px;
-    left: -390px;
+    bottom: 87.3125rem;
+    left: -24.735rem;
     height: 300px;
     width: 300px;
     margin: 0 auto;
@@ -210,8 +228,8 @@ section #main {
 
 .Image5 img{
     position:relative;
-    bottom: 2811px;
-    left: -23px;
+    bottom: 175.6875rem;
+    left: -1.4375rem;
     height: auto;
     width: 300px;
     margin: 0 auto;
@@ -223,8 +241,8 @@ section #main {
 .Image6 img{
     float: left;
     position:relative;
-    bottom: 2813px;
-    left: -23px;
+    bottom: 175.8125rem;
+    left: -1.4375rem;
     height: auto;
     width: 300px;
     margin: 0 auto;
@@ -235,8 +253,8 @@ section #main {
 
 .Image7 img{
     position:relative;
-    bottom: 2362px;
-    left: -325px;
+    bottom: 147.625rem;
+    left: -20.3125rem;
     height: auto;
     width: 300px;
     margin: 0 auto;
@@ -247,8 +265,8 @@ section #main {
 
 .Image8 img{
     position:relative;
-    bottom: 3718px;
-    left: 1580px;
+    bottom: 232.375rem;
+    left: 98.75rem;
     height: auto;
     width: 300px;
     margin: 0 auto;
@@ -259,8 +277,8 @@ section #main {
 
 .Image9 img{
     position:relative;
-    bottom: 3720px;
-    left: 1580px;
+    bottom: 232.5rem;
+    left: 98.75rem;
     height: auto;
     width: 300px;
     margin: 0 auto;
@@ -271,8 +289,8 @@ section #main {
 
 .Image10 img{
     position:relative;
-    bottom: 3722px;
-    left: 1580px;
+    bottom: 232.625rem;
+    left: 98.75rem;
     height: auto;
     width: 300px;
     margin: 0 auto;
@@ -283,7 +301,7 @@ section #main {
 
 
 footer {
-    background-color: #40362f;
+    background-color: chocolate;
     height: 25px;
     font-size: 1.2em;
     color: #fff;
@@ -314,11 +332,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-div.clear {
-    clear: both;
-    font-size:1%
-}
-
 button {
     color: #C64322;
     background-color: #FFF;
@@ -327,8 +340,9 @@ button {
     padding: 0.2em 0.5em;
     border: 1px solid #C64322;
     text-transform: uppercase;
+    border-radius: 4px;
 }
 button:hover {
-    background-color: #FBF3DB;
-    border: 1px solid #745b2f;
+    background-color: #fbeddb;
+    border: 1px solid chocolate;
 }
