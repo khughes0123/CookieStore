@@ -1,103 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cookies Galore</title>
-    <link rel= "stylesheet" href="main.css" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <div class ="contentWrapper">
-        <div>
-    <header>
-        
-    
-    <!--Search Bar/Login-->
-   <nav id= "searchMenu">
-    <ul>
-        <li><a href><i class="fa fa-instagram" border="0"></i></a></li>
-        <li><a href><i class="fa fa-facebook" border="0"></i></a></li>
-        <li><a href><i class="fa fa-twitter" border="0"></i></a></li>
-        <li class="acctNav"><a href="#" class="active">Login</a></li>
-        <li><input type="search" id="search" placeholder="Search"></li>
-    </ul>
-    <h1>Cookies Galore</h1>
-</header>
-    
-    </nav>
-</div>
-<div>
-    <section id="navigator">
-        <h4>Explore Galore</h4>
-        <ul>
-            <li><a href="#">Cookie History</a></li>
-            <br>
-            <li><a href="#">Recipes</a></li>
-            <br>
-            <li><a href="#">Shop</a></li>
-            <br>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        </section>
-</div>
-<section id="main">
-    <!--Main Section-->
-    <h3>Our Favorites!</h3>
-    <!--Four Cookie Types-->
-    <div class="Image1">
-        <img src= "Images/ChocChip300.jpg"class="cookiePic"/>
-        <h2>Chocolate Chip</h2>
-        <p>Lollipop ice cream marzipan carrot cake tiramisu danish cookie muffin powder. Biscuit topping jujubes. Dragée chocolate bar cookie cheesecake macaroon topping dragée cake.</p>
-        <button>Order</button>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="row">
+      <div class="column sidebarwidth">
+        <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
+        <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
+        <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
+        <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
+      </div>
+      <div class="column">
+        <div class="row">
+          <header>
+            <!--Search Bar/Login-->
+            <nav id="searchMenu">
+              <ul>
+                <li>
+                  <a href><i class="fa fa-instagram" border="0"></i></a>
+                </li>
+                <li>
+                  <a href><i class="fa fa-facebook" border="0"></i></a>
+                </li>
+                <li>
+                  <a href><i class="fa fa-twitter" border="0"></i></a>
+                </li>
+                <li class="acctNav"><a href="#" class="active">Login</a></li>
+                <li>
+                  <input type="search" id="search" placeholder="Search" />
+                </li>
+              </ul>
+              <h1>Cookies Galore</h1>
+            </nav>
+          </header>
+        </div>
+        <div class="row" id="contentrow">
+          <div class="column">
+            <div class="row centerheading">
+              <h3>Our Favorites!</h3>
+            </div>
+            <div class="row cookierow">
+                <img src="Images/ChocChip300.jpg" class="cookiePic" />
+              <div class="column">
+                <h2>Chocolate Chip</h2>
+                <p>
+                  Lollipop ice cream marzipan carrot cake tiramisu danish cookie
+                  muffin powder. Biscuit topping jujubes. Dragée chocolate bar
+                  cookie cheesecake macaroon topping dragée cake.
+                </p>
+              </div>
+              <button>Order</button>
+            </div>
+            <div class="row cookierow">
+              <img src="Images/OatmealRaisin300.jpg" class="cookiePic" />
+              <div class= "column">
+              <h2>Oatmeal Raisin</h2>
+              <p>
+                Lollipop ice cream marzipan carrot cake tiramisu danish cookie
+                muffin powder. Biscuit topping jujubes. Dragée chocolate bar
+                cookie cheesecake macaroon topping dragée cake.
+            </p>
+        </div>
+              <button>Order</button>
+            </div>
+            <div class= "row cookierow">
+                <img src="Images/PeanutButter300.jpg" class="cookiePic" />
+                <div class="column">
+                <h2>Peanut Butter</h2>
+                <p>
+                  Lollipop ice cream marzipan carrot cake tiramisu danish cookie muffin
+                  powder. Biscuit topping jujubes. Dragée chocolate bar cookie
+                  cheesecake macaroon topping dragée cake.
+                </p>
+            </div>
+                <button>Order</button>
+                </div>
+                <div class="row cookierow">
+                    <img src="Images/Snickerdoodle300.jpg" class="cookiePic" />
+                    <div class="column">
+                    <h2>Snickerdoodle</h2>
+                    <p>
+                      Lollipop ice cream marzipan carrot cake tiramisu danish cookie muffin
+                      powder. Biscuit topping jujubes. Dragée chocolate bar cookie
+                      cheesecake macaroon topping dragée cake.
+                    </p>
+                </div>
+                    <button>Order</button>
+                  </div>
+          </div>
+          <div class="column">
+            <section id="navigator">
+              <h4>Explore Galore</h4>
+              <ul>
+                <li><a href="#">Cookie History</a></li>
+                <br />
+                <li><a href="#">Recipes</a></li>
+                <br />
+                <li><a href="#">Shop</a></li>
+                <br />
+                <li><a href="#">Resources</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
     </div>
-    <div class="Image2">
-        <img src="Images/OatmealRaisin300.jpg" class="cookiePic"/>
-        <h2>Oatmeal Raisin</h2>
-        <p>Lollipop ice cream marzipan carrot cake tiramisu danish cookie muffin powder. Biscuit topping jujubes. Dragée chocolate bar cookie cheesecake macaroon topping dragée cake.</p>
-        <button>Order</button>
+    <div class="column sidebarwidth">
+      <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
+      <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
+      <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
+      <img src="Images/Sidebar2(1).jpg" class="cookiePic" />
     </div>
-    <div class="Image3">
-        <img src="Images/PeanutButter300.jpg" class="cookiePic"/>
-        <h2>Peanut Butter</h2>
-        <p>Lollipop ice cream marzipan carrot cake tiramisu danish cookie muffin powder. Biscuit topping jujubes. Dragée chocolate bar cookie cheesecake macaroon topping dragée cake.</p>
-        <button>Order</button>
     </div>
-    <div class="Image4">
-        <img src="Images/Snickerdoodle300.jpg" class="cookiePic"/>
-        <h2>Snickerdoodle</h2>
-        <p>Lollipop ice cream marzipan carrot cake tiramisu danish cookie muffin powder. Biscuit topping jujubes. Dragée chocolate bar cookie cheesecake macaroon topping dragée cake.</p>
-        <button>Order</button>
-</section>
-<div class="Image5">
-    <img src= "Images/Sidebar2(1).jpg"class="cookiePic"/>
-</div>
-<div class="Image6">
-    <img src="Images/Sidebar2(1).jpg" class="cookiePic"/>
-</div>
-<div class="Image7">
-    <img src="Images/Sidebar2(1).jpg" class="cookiePic"/>
-</div>
-<div class="Image8">
-    <img src="Images/Sidebar2(1).jpg" class="cookiePic"/>
-</div>
-<div class="Image9">
-    <img src="Images/Sidebar2(1).jpg" class="cookiePic"/>
-    </div>
-<div class="Image10">
-    <img src="Images/Sidebar2(1).jpg" class="cookiePic"/>
-    </div>
-<div class = "clear"></div>
-    <footer>
-        <!--Legal items, navigational items-->
+
+    <footer class="row" id="footercenter">
         <span>&copy;2019</span>
         <ul id="menuFooter">
-            <li><a href="#">Sitemap</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li>Website by Hughes</li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li>Website by Hughes</li>
         </ul>
     </footer>
-    </div>
-</body>
+  </body>
 </html>
